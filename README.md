@@ -1,6 +1,6 @@
 # superheros
 
-A library for Dart developers needing superheros to save the day.
+Just a list of superheros to be used for the greater good.
 
 ## Usage
 
@@ -9,7 +9,7 @@ A simple usage example:
     import 'package:superheros/superheros.dart';
 
     main() {
-      var superHeros = superHeros;
+			superHeros.forEach(print);
     }
 
 ## Development
