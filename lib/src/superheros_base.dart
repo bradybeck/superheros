@@ -1,3 +1,5 @@
+import 'dart:math';
+
 final Set<String> superHeros = new Set.from([
   "3-D Man",
   "A-Bomb",
@@ -1825,3 +1827,9 @@ final Set<String> superHeros = new Set.from([
   "Zuras",
   "Zzzax"
 ]);
+
+/// Pulls a random company from the list of 1000.
+String getRandomHeroName() {
+  int _randomCompanyIndex = new Random().nextInt(superHeros.length - 1);
+  return (superHeros.toList())[_randomCompanyIndex];
+}

@@ -12,5 +12,11 @@ void main() {
     test('Spiderman lives forever', () {
       expect(superHeros, contains('Spider-Man'));
     });
+
+    test('Test the random name generator', () {
+      for (int i = 0; i < 1000; i++) {
+        expect(getRandomHeroName(), isNotEmpty);
+      }
+    });
   });
 }

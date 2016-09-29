@@ -11,6 +11,9 @@ import 'package:superheros/superheros.dart';
 
 main() {
   superHeros.forEach(print);
+
+  getRandomHeroName(); // Spiderman
+  getRandomHeroName(); // Wonder Man
 }
 ```
 
