@@ -1,4 +1,6 @@
 # superheros
+[![Pub](https://img.shields.io/pub/v/superheros.svg)](https://pub.dartlang.org/packages/superheros)
+[![Build Status](https://travis-ci.org/bradybeck/superheros.svg?branch=master)](https://travis-ci.org/bradybeck/superheros)
 
 Just a list of superheros to be used for the greater good.
 
