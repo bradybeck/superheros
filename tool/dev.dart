@@ -10,12 +10,9 @@ main(args) async {
   // Configure whether or not the HTML coverage report should be generated.
   config.coverage.html = false;
 
-  // Configure the port on which examples should be served.
-  config.examples.port = 9000;
-
   // Define the directories to include when running the
   // Dart formatter.
-  config.format.directories = ['lib/', 'test/', 'tool/'];
+  config.format.paths = ['lib/', 'test/', 'tool/'];
 
   // Define the location of your test suites.
   config.test
